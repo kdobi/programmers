@@ -8,7 +8,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 SRC_DIR = ROOT / "src"
 README = ROOT / "README.md"
 
@@ -59,9 +59,7 @@ def build_generated_section() -> str:
     lines = [
         START_MARKER,
         "",
-        "이 영역은 `scripts/update_readme.py`가 자동 생성합니다.",
-        "",
-        f"총 {len(solutions)}문제",
+        f"> 현재 풀이한 문제 개수 : {len(solutions)}",
         "",
         "| 번호 | 문제 | 풀이 |",
         "|---:|---|---|",

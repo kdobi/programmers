@@ -1,4 +1,4 @@
-package 삼진법뒤집기;
+package 삼진법뒤집기_68935;
 
 class Solution {
     public int solution(int n) {
@@ -22,4 +22,3 @@ class Solution {
         System.out.println(solution.solution(45));
     }
 }
-

@@ -1,4 +1,4 @@
-package 붕대감기;
+package 붕대감기_250137;
 
 class Solution {
     public int solution(int[] bandage, int health, int[][] attacks) {

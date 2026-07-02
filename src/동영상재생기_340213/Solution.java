@@ -1,4 +1,4 @@
-package 동영상재생기;
+package 동영상재생기_340213;
 
 class Solution {
     public String solution(String video_len, String pos, String op_start, String op_end, String[] commands) {

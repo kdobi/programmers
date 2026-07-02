@@ -1,4 +1,4 @@
-package 유연근무제;
+package 유연근무제_388351;
 
 class Solution {
     public int solution(int[] schedules, int[][] timelogs, int startday) {

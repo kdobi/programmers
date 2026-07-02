@@ -1,4 +1,4 @@
-package 지폐접기;
+package 지폐접기_340199;
 
 class Solution {
     public int solution(int[] wallet, int[] bill) {

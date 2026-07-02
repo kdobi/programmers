@@ -1,4 +1,4 @@
-package 둘만의암호;
+package 둘만의암호_155652;
 
 import java.util.ArrayList;
 import java.util.List;

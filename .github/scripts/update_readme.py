@@ -98,12 +98,18 @@ def render_readme() -> str:
         )
 
     current = README.read_text(encoding="utf-8")
-    if START_MARKER in current and END_MARKER in current:
-        pattern = re.compile(
-            rf"{re.escape(START_MARKER)}.*?{re.escape(END_MARKER)}",
-            flags=re.DOTALL,
-        )
-        return pattern.sub(generated_section, current).rstrip() + "\n"
+    start_index = current.find(START_MARKER)
+    end_index = current.rfind(END_MARKER)
+
+    if start_index != -1 and end_index != -1 and start_index < end_index:
+        prefix = current[:start_index].rstrip()
+        suffix = current[end_index + len(END_MARKER) :].strip()
+        parts = [prefix, generated_section]
+
+        if suffix:
+            parts.append(suffix)
+
+        return "\n\n".join(parts).rstrip() + "\n"
 
     return current.rstrip() + "\n\n" + generated_section + "\n"
 

@@ -10,7 +10,7 @@
 
 <!-- SOLVED:START -->
 
-> 현재 풀이한 문제 개수 : 7
+> 현재 풀이한 문제 개수 : 8
 
 | 번호 | 문제 | 풀이 |
 |---:|---|---|
@@ -21,5 +21,6 @@
 | 5 | [삼진법뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/68935) | [Java](src/%EC%82%BC%EC%A7%84%EB%B2%95%EB%92%A4%EC%A7%91%EA%B8%B0_68935/Solution.java) |
 | 6 | [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/388351) | [Java](src/%EC%9C%A0%EC%97%B0%EA%B7%BC%EB%AC%B4%EC%A0%9C_388351/Solution.java) |
 | 7 | [지폐접기](https://school.programmers.co.kr/learn/courses/30/lessons/340199) | [Java](src/%EC%A7%80%ED%8F%90%EC%A0%91%EA%B8%B0_340199/Solution.java) |
+| 8 | [카드뭉치](https://school.programmers.co.kr/learn/courses/30/lessons/159994) | [Java](src/%EC%B9%B4%EB%93%9C%EB%AD%89%EC%B9%98_159994/Solution.java) |
 
 <!-- SOLVED:END -->
